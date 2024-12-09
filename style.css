@@ -1,36 +1,77 @@
+.container-fluid {
+    display: flex;
+    height: 100vh;
+    padding: 0;
+}
+
+
+
+
 
 .login-right-color {
-    background-color: #C4D4E6; 
+    background: linear-gradient(to right, #a4ea4f 40%, #fff 40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
 }
 
-.login-left-color {
-    background-color: #4474a3;
-}
+
 
 
 .central-div {
-    width: 368px;
-    height: 650px;
-    background: transparent; 
-    backdrop-filter: none; 
-    border-radius: 8px; 
-    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.2); 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    z-index: 10; 
+    width: 900px;
+    height: 600px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
 @media (max-width: 700px) {
     .central-div {
-        align-items: center;
-        justify-content: center;
-        height: 600px;
-        width: 350px;
-        background: transparent;
+        width: 300px;
+
+        height: 300px;
     }
 }
 
 
+.form-container {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin-left: 30%;
+}
+
+.custom-input {
+    width: 400px;
+    height: 50px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #a4ea4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #5bb100;
+}

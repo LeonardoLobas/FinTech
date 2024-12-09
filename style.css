@@ -61,6 +61,12 @@
     height: 50px;
 }
 
+.custom-input:focus {
+    outline: none;
+    box-shadow: none;
+    border: solid 2px #a4ea4f;
+}
+
 button {
     margin-top: 10px;
     background-color: #a4ea4f;

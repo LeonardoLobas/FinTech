@@ -13,7 +13,7 @@
 }
 
 .login-right-color {
-    background: linear-gradient(to right, #a4ea4f 45%, #fff 40%);
+    background: linear-gradient(to right, #047c62 45%, #fff 40%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,12 +49,13 @@
     width: 90%;
     height: 40px;
     margin-bottom: 10px;
+    border: 0.5px solid #047c62;
 }
 
 .custom-input:focus {
     outline: none;
     box-shadow: none;
-    border: solid 2px #a4ea4f;
+    border: solid 2px #047c62;
 }
 
 .Register-forget{
@@ -66,13 +67,13 @@
 }
 
 .Register-forget a{
-    color: #a4ea4f;
+    color: #047c62;
     font-size: 15px;
 }
 
 .register-link {
     margin-top: 10px; 
-    color: #a4ea4f;
+    color: #047c62;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
@@ -80,12 +81,12 @@
 
 .register-link:hover {
     text-decoration: underline;
-    color: #5bb100;
+    color: #047c62;
 }
 
 button {
     margin-top: 10px;
-    background-color: #a4ea4f;
+    background-color: #047c62;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -95,7 +96,8 @@ button {
 }
 
 button:hover {
-    background-color: #5bb100;
+    background-color: #035D4A
+    ;
 }
 
 .svg-mobile {
@@ -104,7 +106,7 @@ button:hover {
 
 @media (max-width: 700px) {
     .login-right-color {
-        background:  #a4ea4f !important; 
+        background:  #047c62 !important; 
         height: 100vh;
         width: 100%;
         display: flex;
@@ -117,7 +119,7 @@ button:hover {
         height: auto;
         padding: 20px;
         border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
         margin-top: 20%;
         gap: 20px;
     }
